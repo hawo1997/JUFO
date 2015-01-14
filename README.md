@@ -1,2 +1,2 @@
 # JUFO
-Public for JUFO
+Jugend Forscht Projekt ISG
