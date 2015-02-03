@@ -5,4 +5,4 @@
 - in dieser hat jeder Raspberry eine eindeutige ID -> jeder ID ist Text zugeordnet
 - Raspberry ruft sich Text von Datenbank ab
 
- So wärs doch viel einfacher als wenn wir uns selbst ne GUI mit Qt4 oder so basteln :D
+ So wärs doch viel einfacher als wenn wir uns selbst ne GUI mit Qt4 oder Tkinter usw. basteln :D
