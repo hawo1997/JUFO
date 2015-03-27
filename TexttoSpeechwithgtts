@@ -1,5 +1,5 @@
-
 #aptitude install python3-pip, pip3 install gtts
+#hab aber noch einen import Error
 from gtts import gTTS
 
 def gtts_vorlesen(t):
