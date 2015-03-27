@@ -1,8 +1,5 @@
 
 
-- Datenbank auf Hauptrechner mit sqllite und Python-django
-- Datenbank über Webinterface mithilfe von Django änderbar
-- in dieser hat jeder Raspberry eine eindeutige ID -> jeder ID ist Text zugeordnet
-- Raspberry ruft sich Text von Datenbank ab
-
- So wärs doch viel einfacher als wenn wir uns selbst ne GUI mit Qt4 oder Tkinter usw. basteln :D
+- Datenbank auf Hauptrechner mit sqllite
+- Datenbank wird alle 10 min per scp auf alle raspberrys kopiert
+- python fragt lokale Datenbank ab und liest mit espeak vor
