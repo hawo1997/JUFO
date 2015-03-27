@@ -1,0 +1,8 @@
+
+#aptitude install python3-pip, pip3 install gtts
+from gtts import gTTS
+
+def gtts_vorlesen(t):
+    tts=gTTS(text=t,lang='de')
+    tts.save("test.mp3")
+gtts_vorlesen("Fischers Fritz fischt frische Fische")
