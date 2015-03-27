@@ -1,6 +1,5 @@
 #!/usr/bin/expect -f
 
-# connect via scp
 spawn scp "Jufo@ip:/home/Jufo/datenbank.db" /home/Jufo/Audiosystem
 
 expect {
