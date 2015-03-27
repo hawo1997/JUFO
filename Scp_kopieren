@@ -1,5 +1,5 @@
 #!/usr/bin/expect -f
-
+# Wird im Cronjob virtelstündig (oder so) ausgeführt
 spawn scp "Jufo@ip:/home/Jufo/datenbank.db" /home/Jufo/Audiosystem
 
 expect {
