@@ -2,4 +2,4 @@
 
 - Datenbank auf Hauptrechner mit sqllite
 - Datenbank wird alle 10 min per scp auf alle raspberrys kopiert
-- python fragt lokale Datenbank ab und liest mit espeak vor
+- python fragt lokale Datenbank ab und liest bei Event aus dieser mit espeak vor
