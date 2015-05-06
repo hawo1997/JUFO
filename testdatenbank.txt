@@ -1,0 +1,3 @@
+"Raumnr","Raumname","Oeffnungszeiten"
+"1","Archiv","Das Archiev öffnet um sieben Uhr dreißig und schließt um acht."
+"2","Standesamt","von 13-14 Uhr"
