@@ -1,6 +1,9 @@
-import sqlite3
-conn = sqlite3.connect('JUFO.db')n
-cur=conn.cursor()
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+import sqlite3 as lite
+con = lite.connect('JUFO.db')
+
 with con:
     
     con.row_factory = lite.Row
