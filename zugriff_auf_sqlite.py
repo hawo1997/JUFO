@@ -15,4 +15,4 @@ with con:
 
     rows = cur.fetchall()
     for row in rows:
-        #print "%s %s %s" % (row["Raumnr"], row["Raumname"], row["Oeffnungszeiten"])
+        print(row["Raumnr"],row["Raumname"], row["Oeffnungszeiten"])
