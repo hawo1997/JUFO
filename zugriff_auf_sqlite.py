@@ -1,18 +1,18 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-
 import sqlite3 as lite
 
+def Auslesen(Nr):
+    con = lite.connect('JUFO.db')
+    with con:
 
-con = lite.connect('JUFO.db')
+        con.row_factory = lite.Row
 
-with con:
+        cur = con.cursor()
+        cur.execute("SELECT * FROM rasp1")
 
-    con.row_factory = lite.Row
+        rows = cur.fetchall()
+        for row in rows:
+            if Nr==row["Raumnr"]:
+                print(row["Oeffnungszeiten"])
+#            print(row["Raumnr"],row["Raumname"], row["Oeffnungszeiten"])
 
-    cur = con.cursor()
-    cur.execute("SELECT * FROM rasp1")
-
-    rows = cur.fetchall()
-    for row in rows:
-        print(row["Raumnr"],row["Raumname"], row["Oeffnungszeiten"])
+Auslesen(1)
