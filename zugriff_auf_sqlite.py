@@ -12,7 +12,7 @@ def Auslesen(Nr,Name):
         rows = cur.fetchall()
         for row in rows:
             if Nr==row["Raumnr"]:
-                print(row["Oeffnungszeiten"])
+                return(row["Oeffnungszeiten"])
 #            print(row["Raumnr"],row["Raumname"], row["Oeffnungszeiten"])
 
-Auslesen(1,"rasp1")
+print(Auslesen(1,"rasp1"))
