@@ -1,13 +1,13 @@
 import sqlite3 as lite
 
-def Auslesen(Nr):
+def Auslesen(Nr,Name):
     con = lite.connect('JUFO.db')
     with con:
 
         con.row_factory = lite.Row
 
         cur = con.cursor()
-        cur.execute("SELECT * FROM rasp1")
+        cur.execute("SELECT * FROM %s" % (Name))
 
         rows = cur.fetchall()
         for row in rows:
