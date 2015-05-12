@@ -3,8 +3,8 @@ import zugriff_auf_sqlite.py
 import espeak.py
 name="rasp1" #name des Raspeberrys :D
 
-r1=False #Raum Nummer 1
-r2=False
+r1=False #Raum Nummer 1, hier im Beispiel Archiv
+r2=False #Standesamt
 
 while True:
   r1=teste_ob_gedrueckt(r1)
