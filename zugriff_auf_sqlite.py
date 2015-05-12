@@ -1,6 +1,6 @@
 import sqlite3 as lite
 
-def Auslesen(Nr,Raumname):
+def Auslesen(Raumnr,Name):
     con = lite.connect('JUFO.db')
     with con:
 
@@ -11,7 +11,7 @@ def Auslesen(Nr,Raumname):
 
         rows = cur.fetchall()
         for row in rows:
-            if Nr==row["Raumnr"]:
+            if Raumnr==row["Raumnr"]:
                 return(row["Oeffnungszeiten"])
 #            print(row["Raumnr"],row["Raumname"], row["Oeffnungszeiten"])
 
