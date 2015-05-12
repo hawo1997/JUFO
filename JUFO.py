@@ -3,13 +3,13 @@ import zugriff_auf_sqlite.py
 import espeak.py
 name="rasp1" #name des Raspeberrys :D
 
-Archiv=False
-Standesamt=False
+r1=False #Raum Nummer 1
+r2=False
 
 while True:
-  Archiv=teste_ob_gedrueckt(Archiv)
-  Standesamt=teste_ob_gedrueckt(Standesamt)
-  if Archiv=True:
-    lese_text(auslesen(name,"Archiv"))
-  if Standesamt=True:
-    lese_text(auslesen(name,"Standesamt"))
+  r1=teste_ob_gedrueckt(r1)
+  r2=teste_ob_gedrueckt(r2)
+  if r1=True:
+    lese_text(auslesen(1,name))
+  if r2=True:
+    lese_text(auslesen(2,name))
