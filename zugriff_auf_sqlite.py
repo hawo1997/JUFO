@@ -1,6 +1,6 @@
 import sqlite3 as lite
 
-def Auslesen(Nr,Name):
+def Auslesen(Nr,Raumname):
     con = lite.connect('JUFO.db')
     with con:
 
