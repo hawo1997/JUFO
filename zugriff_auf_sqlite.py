@@ -15,4 +15,4 @@ def Auslesen(Nr,Name):
                 return(row["Oeffnungszeiten"])
 #            print(row["Raumnr"],row["Raumname"], row["Oeffnungszeiten"])
 
-print(Auslesen(1,"rasp1"))
+#print(Auslesen(1,"rasp1"))
