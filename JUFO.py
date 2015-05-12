@@ -12,4 +12,4 @@ while True:
   if Archiv=True:
     lese_text(auslesen(name,"Archiv"))
   if Standesamt=True:
-    lese_text(auslesen(name,"Archiv"))
+    lese_text(auslesen(name,"Standesamt"))
