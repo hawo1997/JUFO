@@ -1,6 +1,6 @@
-import GPIO.py
-import zugriff_auf_sqlite.py
-import espeak.py
+import GPIO
+import zugriff_auf_sqlite
+import espeak
 name="rasp1" #name des Raspeberrys :D
 
 r1=False #Raum Nummer 1, hier im Beispiel Archiv
