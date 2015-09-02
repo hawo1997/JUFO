@@ -2,4 +2,6 @@
 - Datenbank wird alle 10 min per scp auf alle raspberrys kopiert
 - Python fragt lokale Datenbank ab und liest bei Event aus dieser mit espeak vor
 
-TODO: Programm registriert, wenn Datenbank sich ändert und kopiert diese nur bei änderung
+TODO: 
+- Programm registriert, wenn Datenbank sich ändert und kopiert diese nur bei änderung
+- SVOX (pico2wave) instead of espeak
